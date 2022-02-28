@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./firs-component.component.scss']
 })
 export class FirsComponentComponent implements OnInit {
-
+  nomeTitulo: string = "Bem Vindo ao Moments";
   constructor() { }
 
   ngOnInit(): void {
