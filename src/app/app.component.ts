@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  useMoments = 'Todos os seus melhores momentos aqui!';
   title = 'moments';
 }
