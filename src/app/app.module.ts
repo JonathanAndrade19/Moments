@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FirsComponentComponent } from './components/firs-component/firs-component.component';
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
+import { IfRenderComponent } from './components/if-render/if-render.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FirsComponentComponent,
-    ParentDataComponent
+    ParentDataComponent,
+    IfRenderComponent
   ],
   imports: [
     BrowserModule,
