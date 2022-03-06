@@ -6,6 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  useMoments = 'Todos os seus melhores momentos aqui!';
   title = 'moments';
+  useMoments = 'Todos os seus melhores momentos aqui!';
+  userDate = {
+    nome: 'Jonathan',
+    sobrenome: 'Moreira de Andrade Barbosa',
+    idade: 27,
+    sexo: 'Masculino',
+    email: 'jonathanjampamb@gmail.com'
+  }
 }
