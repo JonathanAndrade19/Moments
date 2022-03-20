@@ -10,6 +10,7 @@ import { EventosComponent } from './components/eventos/eventos.component';
 import { EmitterComponent } from './components/emitter/emitter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
 import { DirectivesComponent } from './components/directives/directives.component';
+import { ListRenderComponent } from './components/list-render/list-render.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DirectivesComponent } from './components/directives/directives.componen
     EventosComponent,
     EmitterComponent,
     ChangeNumberComponent,
-    DirectivesComponent
+    DirectivesComponent,
+    ListRenderComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,15 @@
+<h2>Animais</h2>
+<div class="template-component">
+  <table>
+    <tr>
+      <td>Nome</td>
+      <td>Raça</td>
+    </tr>
+    <tr>
+      <td class="animals" *ngFor="let animal of animals">
+        <li>{{animal.name}}</li>
+        <li>{{animal.type}}</li>
+      </td>
+    </tr>
+  </table>
+</div>
