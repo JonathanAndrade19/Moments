@@ -2,14 +2,15 @@
 <div class="template-component">
   <table>
     <tr>
-      <td>Nome</td>
-      <td>Raça</td>
+      <th>Nome</th>
+      <th>Raça</th>
+      <th>Opção</th>
     </tr>
-    <tr>
-      <td class="animals" *ngFor="let animal of animals">
-        <li>{{animal.name}}</li>
-        <li>{{animal.type}}</li>
-      </td>
+    <tr class="animals" *ngFor="let animal of animals">
+      <td>{{ animal.name }}</td>
+      <td>{{ animal.type }}</td>
+      <td><li><button (click)="showAge(animal)" class="btn">Show Age</button></li></td>
     </tr>
   </table>
+  <p class="animals">{{ animalDetails }}</p>
 </div>
