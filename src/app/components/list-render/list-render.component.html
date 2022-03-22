@@ -10,6 +10,7 @@
       <td>{{ animal.name }}</td>
       <td>{{ animal.type }}</td>
       <td><li><button (click)="showAge(animal)" class="btn">Show Age</button></li></td>
+      <li><button (click)="removeAnimal(animal)" class="btn-delete">Excluir</button></li>
     </tr>
   </table>
   <p class="animals">{{ animalDetails }}</p>
